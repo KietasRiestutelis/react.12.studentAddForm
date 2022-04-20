@@ -1,0 +1,18 @@
+form {
+  display: flex; /* 2. display flex to the rescue */
+  flex-direction: row;
+}
+
+.Form-button{
+  display:block;
+  flex-direction: column;
+
+}
+
+label, input {
+  display: block; /* 1. oh noes, my inputs are styled as block... */
+}
+
+label, select {
+  display: block; /* 1. oh noes, my inputs are styled as block... */
+}
